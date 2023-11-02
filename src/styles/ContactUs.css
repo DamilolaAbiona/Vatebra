@@ -1,0 +1,570 @@
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  /* overflow-y: auto;
+  overflow-x: hidden; */
+}
+.Contact p{
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+}
+.overlay{
+    background-color: rgba(1, 45, 1, 0.815);
+    overflow-y: auto;
+}
+
+.contactparagraph p{
+    color: white;
+    font-size: 1.4rem;
+    width: 50%;
+}
+/* Get in Touch */
+.Intouch{
+    padding:2rem 6rem;
+   
+}
+.Intouchsentence{
+    margin-left: 10rem;
+    margin-top: 4rem;
+    width: 29%;
+    
+}
+.location{
+    width: 60%;
+}
+.location img {
+    width: 60%;
+}
+table{
+    /* padding: 1rem; */
+    /* margin-right: 2rem; */
+    font-size: 16px;
+    font-weight: 200;
+    border: 1px solid transparent;
+}
+td{
+    margin-top: 2rem;
+    padding: 2rem 1rem 1rem 0rem;
+     border: 1px solid transparent;
+     color: grey;
+}
+td:first-child{
+    color: white;
+}
+.line::after{
+    background:yellowgreen;
+    width: 70%;
+    height:.1rem ;
+    left: 1%;
+    border-radius: 1rem;
+}
+.locateUs p{
+    color: white;
+    font-size: 16px;
+    width: 100%;
+}
+.locateUs p span{
+    display: block;
+}
+/* LOCATION SECTION */
+
+.address{
+  width: 100vw;
+  color: white;
+  background-color: #013E01;
+  background-image: url(../Assets/Images/Group-\(1\).png);
+  background-repeat: no-repeat;
+  background-position: 110% 4%;
+
+}
+.addresscontainer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* padding: 1.4rem 1.4rem 1rem 5rem; */
+}
+.addresscontainer p{
+  color: white;
+  font-size: 1.4rem;
+   margin-bottom: 2rem;
+}
+.box img{
+  margin-right: 1rem;
+}
+.box h4{
+  font-size:2rem;
+  font-weight: 600;
+}
+.box p span{
+  display: block;
+  
+}
+.box{
+  width: 414px;
+}
+.boxp{
+  margin-left: 3rem;
+}
+
+.address_icons{
+  width: 25px !important;
+  height: 25px;
+  object-fit: contain;
+}
+/* Forms */
+.forms{
+  background-color: rgb(1, 48, 1);
+  width: 100%;
+  height: 150vh;
+  /* padding: 5rem; */
+}
+.formscontainer{
+  background-image: url(../Assets/Images/confident-businessman-working-desk\ 1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  background-position: 50% ;
+  height: 100vh;
+  width: 821px;
+  position: relative;
+  border-bottom-left-radius: 3rem;
+  border-bottom-right-radius: 3rem;
+  
+
+}
+.form{
+  background: radial-gradient(circle at top, #eaad11a1, #5bbf14b3, #d40e1efa 80%);
+  z-index: 999;
+  padding: 4rem;
+ 
+  width: 822px;
+  height: 715px;
+  margin-top: 39rem;
+  border-radius: 3rem;
+
+}
+.firstname{
+  display:flex ;
+  width: 100%;
+  justify-content: space-between;
+  position: relative;
+  align-items: flex-start;
+}
+
+
+textarea{
+  outline: none;
+  /* border: none; */
+ width: 100%;
+ padding: 1rem;
+  border: 1px solid transparent;
+  border-radius: 21px;
+  margin-top: 1.4rem;
+  margin-bottom: 1rem;
+  /* margin-left: 2rem; */
+
+}
+
+.subject{
+  /* margin: 2.5rem; */
+  width: Hug (238px);
+height: Hug (65px);
+
+  
+}
+.btn{
+width: 100%;
+}
+
+.inputcommon input {
+  outline: none;
+  /* border: none; */
+  width: 338.77px;
+  height: 51.59px;
+  border: 1px solid transparent;
+  border-radius: 21px;
+  margin-top: 1.4rem;
+  padding-left: 2rem;
+  margin-bottom: 1rem;
+}
+
+.inputcommon input::placeholder{
+  color: rgba(128, 128, 128, 0.442);
+}
+
+
+#Message{
+height: 25vh;
+
+}
+label{
+ 
+   color: white;
+  font-size: 1.5rem;
+  
+}
+
+textarea::placeholder{
+  color: rgba(128, 128, 128, 0.242);
+}
+
+.formstart{
+  position:absolute;
+  content: "";
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 0;
+ 
+  background-color: #005b00b0;
+
+  border: 1px solid transparent;
+  border-bottom-left-radius: 3rem;
+  border-bottom-right-radius: 3rem;
+ 
+  box-shadow: var(--box-shadow);
+  overflow: hidden;
+}
+
+/* Media screen */
+
+@media screen and (max-width:1050px){
+  .contact_map{
+    width: 150% !important;
+    height: 100%;
+    object-fit: contain;
+    
+  }
+
+  .Intouchsentence{
+    margin-left: 0rem;
+    
+}
+}
+
+@media screen and (max-width:900px){
+  .box h4{
+    font-size:1.7rem;
+  }
+  .address{
+    background-image: none;
+  }
+
+  .box{
+    width: 320px;
+  }
+
+  .forms{
+    height: 170vh;
+  }
+
+  .formscontainer,  .form{
+    width: 650px;
+  }
+
+  .inputcommon input{
+    width: 250px;
+  }
+  
+  .contact_map{
+    width: 150% !important;
+    height: 100%;
+    object-fit: contain;
+    
+  }
+
+  .contact_locationmap_container{
+    border: 1px solid red;
+  }
+
+  .Intouchsentence{
+    margin-left: 0rem;
+    
+}
+ 
+}
+
+@media screen and (max-width:700px) {
+    .contactparagraph p{
+        width: 100%;
+    }
+
+    .contactus_p{
+      padding-top: 30px;
+    }
+    .expertisecontainer{
+        flex-direction: column;
+      }
+      .expertiseparagraph{
+        width: 100%;
+      }
+      .expertiseparagraph h3 {
+        width: 100%;
+      }
+      .location{
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    
+      }
+      .products{
+        margin-top: 0rem;
+      }
+      .overlay{
+        display: inline;
+        padding: 2rem 4rem;
+        /* width: 100%; */
+      }
+      .Intouch{
+        padding: 1rem;
+      }
+      .Intouchsentence{
+        width: 100%;
+        margin-left: 0rem;
+      }
+      .Intouchsentence h3{
+        padding: 0;
+        margin: 0;
+        margin-bottom: 1.4rem;
+        width: 100%;
+      }
+
+      .contact_map{
+        width: 100% !important;
+        height: 100%;
+        object-fit: contain;
+        
+      }
+      .line::after{
+        display: none;
+        margin-bottom: 1.4rem;
+        
+      }
+      table{
+        margin-top: 1.8rem;
+        display:none;
+      }
+      .location{
+        width: 100%;}
+      
+      .location img{
+        width: 85%;
+        margin-top: 1rem;
+      }
+      .locateUs p{ 
+        display: none;
+      }
+      .address{
+        background-image: none;
+        background-position: none;
+        background-color: none;
+        padding: 30px 20px;
+      }
+      /* Location */
+      .addresscontainer{
+        flex-direction: column;
+        padding: 1.4rem 1.4rem 1rem 1rem;
+        justify-content: center;
+      }
+
+      .box{
+        width: 100% !important ;
+      }
+      .box img{
+        margin-right: 0rem;
+        width: 4%;
+      }
+      .box{
+        padding-bottom: 4rem;
+      }
+      .boxp{
+        /* margin-left: 2rem; */
+        padding-top: 10px;
+      }
+      .address_icons{
+        width: 16px;
+        height: 16px;
+      }
+      .formscontainer{
+        display: flex;
+        background-image: none;
+        flex-wrap: wrap;
+        width: 326px;
+        margin: 1rem;
+        height: 284px;
+      }
+      .formstart{
+        display: none;
+      }
+     
+      .firstname{
+        flex-direction: column;
+      }
+      .inputcommon input{
+        width:320px;
+        height: 50px;
+
+      }
+      .btn{
+        width: 100%;
+      }
+
+      #Message{
+        /* margin-top: 2rem; */
+        width:320px;
+        height: 50px;
+        
+      }
+      .subject{
+        margin: 0rem;
+        /* width: 47%; */
+        width:320px;
+        /* height: 65px; */
+
+      }
+      
+      .form{
+        width:  400px;
+        margin-top: 15rem;
+        border-radius: 3rem;
+       
+      
+      }
+      .forms{
+        height: 130vh;
+      }
+
+      .location_map_svg{
+        width: 450px;
+        height: 400px;
+      }
+}
+@media screen and (max-width:500px) {
+  /* .formscontainer{
+    display: flex;
+    background-image: none;
+    flex-wrap: wrap;
+    width: 326px;
+    margin: 1rem;
+    height: 344px;
+  } */
+
+  .inputcommon input{
+    width:300px;
+  }
+
+  #Message{
+    width:300px;
+  }
+  .subject{
+    width:300px;
+
+  }
+
+  .form{
+    width:  380px;
+    margin-top: 20rem;
+    border-radius: 3rem;
+    margin-left: 1rem;
+  }
+
+  .location_map_svg{
+    width: 370px;
+    height: 400px;
+  }
+
+}
+
+@media screen and (max-width:400px){
+
+  .inputcommon input{
+    width:280px;
+  }
+  .btn{
+    width: 100%;
+  }
+  #Message{
+    width:280px;
+  }
+  .subject{
+    width:280px;
+
+  }
+
+  .form{
+    width:  350px;
+    margin-top: 20rem;
+    border-radius: 3rem;
+  }
+
+}
+
+@media screen and (max-width:380px){
+
+  .inputcommon input{
+    width:230px;
+  }
+
+  #Message{
+    width:230px;
+  }
+  .subject{
+    width:230px;
+
+  }
+
+  .form{
+    width:  310px;
+    margin-top: 20rem;
+    border-radius: 3rem;
+    margin-left: 1.5rem;
+  }
+  .location_map_svg{
+    width: 350px;
+    height: 400px;
+  }
+
+}
+
+@media screen and (max-width:330px){
+
+
+  .formscontainer{
+    display: flex;
+    background-image: none;
+    flex-wrap: wrap;
+    width: 100%;
+    /* margin: 1rem; */
+    height: 284px;
+  }
+
+  .inputcommon input{
+    width:200px;
+  }
+  .btn{
+    width: 100%;
+  }
+  #Message{
+    width:200px;
+  }
+  .subject{
+    width:200px;
+  }
+
+  .form{
+    width:  270px;
+    margin-top: 20rem;
+    border-radius: 3rem;
+    margin-left: 0rem;
+  }
+
+  .location_map_svg{
+    width: 300px;
+    height: 400px;
+  }
+
+}

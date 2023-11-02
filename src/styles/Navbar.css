@@ -1,0 +1,134 @@
+.navbar_container{
+    background-color: #012101;
+    color: #FFFFFF;
+    padding: 20px 50px 10px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    position: fixed;
+    width: 100vw;
+    z-index: 9999;
+}
+
+.flag_container{
+    margin-left: 25rem;
+}
+
+.hambuger_icon img{
+    width: 30px;
+    height: 30px;
+    display: none;
+}
+
+.navlink_container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.navlink_container a{
+    color: #FFFFFF;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24.46px;
+}
+
+.navbar_mobile_container{
+    display: none;
+}
+
+.showNavDropdown{
+    display: none;
+}
+
+
+/* responsiveness starts here */
+
+@media screen and (max-width: 1050px){
+    .flag_container{
+        margin-left: 15rem;
+    }
+}
+
+@media screen and (max-width: 900px){
+
+    .navbar_container{
+        padding: 15px 40px 8px 40px;
+    }
+
+    .flag_container{
+        margin-left: 0;
+    }
+
+    .navlink_container{
+        gap: 15px;
+    }
+
+    .navlink_container a{
+        font-size: 14px;
+    }
+
+
+}
+
+
+@media screen and (max-width: 500px){
+    .navlink_container{
+        display: none;
+    }
+
+    .hambuger_icon img{
+        display: flex;
+    }
+
+    .logo_container img{
+        width: 83px;
+    }
+
+    .flag_container img{
+        width: 47px;
+    }
+
+    .navbar_container{
+        padding: 15px 30px 8px 20px;
+    }
+
+    .navbar_mobile_container{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        gap: 30px;
+        height: 100vh ;
+        width: 100vw;
+        background-color: #FFFFFF;
+        color: #0F0F0F;
+        padding:  70px 50px 50px 50px;
+        position: fixed;
+        left: 0;
+        z-index: 9997;
+    }
+
+    .navbar_mobile_container a{
+        text-decoration: none;
+        color: #0F0F0F;
+    }
+
+    .showNavDropdown{
+        display: none;
+    }
+
+    .navbar_mobile_container a{
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 24px;
+        text-decoration: none;
+    }
+
+    .navbar_mobile_container a:active,.navbar_mobile_container a.active{
+        font-weight: 800;  
+        color: #0F0F0F;  
+    }
+}

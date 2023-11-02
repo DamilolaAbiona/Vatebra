@@ -1,0 +1,178 @@
+.expertiseparagraph p {
+  color: white;
+  margin-bottom: 1.4rem;
+  font-size: 13px;
+}
+.expertise {
+  padding: 4rem;
+}
+.expertiseparagraph p:first-child {
+  color: #eaad11;
+  font-size: 10px;
+}
+/* button {
+  width: 50%;
+} */
+.expertiseparagraph {
+  width: 20%;
+}
+.professional {
+  padding-left: 3rem;
+  width: 60%;
+}
+.workspace1 {
+  margin-top: 0.2rem;
+  /* width: 75%; */
+}
+.vatworkspace {
+  background-color: transparent;
+}
+
+.subsidiary{
+  background-color: var(--dark--green);
+  background-image: url(../Assets/Images/aboutus-hreo-bg.svg);
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 80% 5%;
+  padding: 4rem 0rem 0rem 0rem;
+}
+
+.subsidiary_card{
+  padding: 0 20px;
+}
+
+.vatpay_container{
+  background-color:#012101 ;
+}
+
+.workspace {
+  justify-content: center;
+  align-items: center;
+}
+
+.subsidiary_btn{
+  width: 50% !important;
+}
+
+
+.subsidiary_expertise_texth3{
+  font-size: 30px !important;
+  font-weight: 700 !important;
+  line-height: 44px !important;
+}
+
+.subsidiary_expertise_text_1{
+  font-size: 16px !important;
+  font-weight: 400 !important;
+  line-height: 24.46px !important;
+  width: 350px !important;
+}
+
+/* .professional{
+  border: 1px solid red;
+  margin: auto !important;
+
+} */
+
+@media screen and (max-width: 1250px) {
+  .subsidiary_img{
+    width: 100% !important;
+    object-fit: contain !important;
+  }
+
+  .subsidiary_expertise_texth3{
+    font-size: 28px !important;
+    font-weight: 700 !important;
+    line-height: 44px !important;
+  }
+  
+  .subsidiary_expertise_text_1{
+    font-size: 16px !important;
+    font-weight: 400 !important;
+    line-height: 24.46px !important;
+    width: 300px !important;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .subsidiary_img{
+    width: 100% !important;
+  }
+  .subsidiary_btn{
+    width: 60% !important;
+  }
+
+  .subsidiary_expertise_texth3{
+    font-size: 23px !important;
+    font-weight: 700 !important;
+    line-height: 44px !important;
+  }
+  
+  .subsidiary_expertise_text_1{
+    font-size: 14px !important;
+    font-weight: 400 !important;
+    line-height: 24.46px !important;
+    width: 220px !important;
+  }
+  .professional{
+  /* border: 1px solid red; */
+  margin: auto !important;
+
+}
+
+}
+
+@media screen and (max-width: 700px) {
+
+  .subsidiary_card p{
+    padding-top: 30px;
+  }
+
+  .workspace {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .expertiseparagraph {
+    margin-left: 0rem;
+    width: 100%;
+  }
+  /* button {
+    width: 50%;
+  } */
+  .workspace1 {
+    margin-top: 1.2rem;
+    margin-bottom: 2rem;
+    width: 100%;
+  }
+  .colors {
+    height: 1%;
+  }
+  .expertisecontainer {
+    flex-direction: column-reverse;
+  }
+  .expertise {
+    padding: 1rem;
+  }
+  .colors::after {
+    width: 100%;
+    height: 2%;
+  }
+  .professional {
+    padding-left: 1rem;
+    width: 100%;
+  }
+
+  .subsidiary_expertise_texth3{
+    font-size: 24px !important;
+    font-weight: 700 !important;
+    line-height: 44px !important;
+  }
+  
+  .subsidiary_expertise_text_1{
+    font-size: 16px !important;
+    font-weight: 400 !important;
+    line-height: 24.46px !important;
+    width: 100% !important;
+  }
+}

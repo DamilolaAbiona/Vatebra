@@ -1,0 +1,89 @@
+.countryFlag_main_container{
+    background-color: #5CBF14;
+    height: 200px;
+    position: relative;
+}
+
+.countryFlag_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: -0%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.nigflag_container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.nigflag_containerp{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24.46px;
+}
+
+.nigflag_container_icon{
+    width: 200px;
+    height: 200px;
+}
+
+.nigflag_container_icon_blur{
+    filter: grayscale(100%);
+}
+
+.nigflag_container_icon_blur:hover{
+    filter: grayscale(0);
+}
+
+/* responsiveness starts here */
+@media screen and (max-width: 900px){
+    .nigflag_containerp{
+        font-size: 14px;
+    }
+    
+    .nigflag_container_icon{
+        width: 160px;
+        height: 170px;
+    }
+}
+
+@media screen and (max-width: 500px){
+
+    .countryFlag_main_container{
+        height: 100px;
+
+    }
+
+    .nigflag_containerp{
+        font-size: 12px;
+    }
+    
+    .nigflag_container_icon{
+        width: 100px;
+        height: 110px;
+    }
+}
+
+
+@media screen and (max-width: 380px){
+    .nigflag_containerp{
+        font-size: 10px;
+    }
+    
+    .nigflag_container_icon{
+        width: 85px;
+        height: 110px;
+    }
+}
+
+@media screen and (max-width: 330px){
+    
+    .nigflag_container_icon{
+        width: 75px;
+        height: 110px;
+    }
+}

@@ -1,0 +1,38 @@
+.LearnMoreBtn_container{
+    background-color: #5CBF14;
+    border-radius: 25px;
+    padding: 10px 44px;
+    cursor: pointer;
+}
+
+.LearnMoreBtn_container:hover{
+    background-color: black;
+    transition: all 0.7s ease-in-out;
+}
+
+.LearnMoreBtn_containerp{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24.46px;
+    text-align: center;
+}
+
+
+/* responsiveness stsrts here */
+
+@media screen and (max-width: 1050px){
+
+    .LearnMoreBtn_containerp{
+        font-size: 13px;
+
+    }
+}
+
+@media screen and (max-width: 900px){
+
+    .LearnMoreBtn_containerp{
+        font-size: 13px;
+
+    }
+}
+

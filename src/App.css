@@ -1,0 +1,26 @@
+/* @font-face {
+
+    font-family: "daxplinepro";
+  
+    src: url('./Assets//fonts/DaxlinePro-Regular.otf') format('truetype');
+  } */
+
+*{
+    padding: 0;
+    margin: 0;
+   box-sizing: border-box;
+    /* font-family: "daxplinepro"; */
+}
+
+html, body {
+  height: 100%;
+  color: #ffffff;
+}
+
+body {
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+
+

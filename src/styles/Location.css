@@ -1,0 +1,68 @@
+.products{
+  background-position: 20% 1%;
+  background-size: cover;
+  background-color: rgb(1, 45, 1);
+    
+}
+
+
+.line::after{
+    margin-bottom: 1.4rem;
+     
+  }
+
+@media screen and (max-width:700px) {
+    
+    table{
+        margin-top: 1.8rem;
+        display:flex;
+        font-size: 10px;
+        margin: 0;
+      }
+      .locateUs p{ 
+        display: inline-block;
+        font-size: 1.3rem;
+      }
+      .line::after{
+        display:flex;
+        width: 100%;
+        margin-bottom: 1.4rem;
+        
+      }
+      .tcolors{
+        display: none;
+      }
+      
+      tr {
+        width: 100%;
+        padding: 0;
+      }
+      .locateUs{
+        margin-top: 3rem;
+      }
+      .colors::after{
+        margin-bottom: 4rem;
+      }
+      td{
+        margin-top: 5rem;
+        width: 100%;
+        padding: 1rem ;
+         border: 1px solid transparent;
+         color: grey;
+    }
+    .tech2{
+        width: 100%;
+    }
+    .tech2 p{
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+    .techie1{
+        display: none;
+    }
+    .sketch{
+      display: none;
+    }
+      
+}
